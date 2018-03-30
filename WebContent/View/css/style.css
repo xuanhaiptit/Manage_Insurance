@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+select {
+	width: :80%;
+	border: 3px solid rgb(200, 200, 207);
+	height: 42px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 5px 10px 20px 35px;
+}
+
+input[type=text] {
+	width: 76%;
+	border: 3px solid rgb(200, 200, 207);
+	height: 23px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 5px 10px 20px 35px;
+}
+
+input[type=submit] {
+	width: 80%;
+	border: 3px solid rgb(200, 200, 207);
+	height: 42px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 10px 10px 20px 35px;
+	border: 1px solid green;
+}
+
+label {
+	margin-left: 35px;
+	font-family: 'Droid Serif', serif;
+}
+
+.container {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.main {
+	float: left;
+	width: 355px;
+	height: 350px;
+	box-shadow: 1px 1px 12px gray;
+	padding-top: 30px;
+}
+
+h2 {
+	width: 370px;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+}
+
+.tbl {
+	font-size: 12px;
+	border: 1px solid #cccccc;
+	background-image: none;
+	border-collapse: collapse;
+}
+
+.tbl_input {
+	border: none;
+}
+
+.errMsg {
+	font-weight: bold;
+	color: #FF0000;
+	text-align: left;
+}
+
+.txBox {
+	background-color: #ffffff;
+	padding: 2px;
+	border: 1px solid #aaaaaa;
+	font-size: 13px;
+}
+
+.tr2, .td2 {
+	background-image: url(../images/bg_td2.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	font-weight: normal;
+	background-color: #f0f0f0;
+	padding: 3px;
+	color: #000000;
+}
+
+.btn {
+	font-size: 11px;
+	font-weight: normal;
+	background-image: url(../images/btn_bg.gif);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 18px;
+	border: 0px;
+	cursor: pointer;
+	padding-top: 2px;
+}
+
+.btn.btn_wider {
+	background-image: url(../images/btn_wider_bg.gif);
+	width: 75px;
+}
+
+.algn-l {
+	text-align: left;
+}
+
+.algn-r {
+	text-align: right;
+}
+
+.algn-c {
+	text-align: center;
+}
+
+.lbl_left {
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	font-size: 13px;
+	width: 120px;
+}
+
+.tbl_list {
+	font-size: 12px;
+	border: 1px solid #cccccc;
+	background-image: none;
+	border-collapse: collapse;
+}
+
+.lbl_paging {
+	color: #000000;
+	text-align: left;
+	font-size: 12px;
+}
+
+.lbl_footer {
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	width: 850px;
+}

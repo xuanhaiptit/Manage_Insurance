@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_131">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/jstl-1.2.jar.zip"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/sualoi/mysql-connector-java-5.1.9.jar.zip"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/com.lowagie.text-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/commons-beanutils-core-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/groovy-all-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/jasperreports-6.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/jasperreports-fonts-6.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/jasperreports-javaflow-6.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Setup/jar/export pdf/font/timeroman.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
